@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Туры", 
+		"/tours/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Справочники", 
+		"/formation-tours/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Заказы", 
+		"/order-management/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Подбор тура", 
+		"/tour_selection/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Тур. агентства", 
+		"/ta/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сопровождающим", 
+		"/escort/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Настройки", 
+		"/settings/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,1731 @@
+/*WebGK.ru*/
+
+.row input[type="text"], .row input[type="password"], .row textarea, .row select {
+    width: 70%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    behavior: url(/PIE.htc);
+    padding: 3px 5px;
+}
+
+.row input, .row textarea, .row select {
+    border: 1px solid #CCC;
+}
+
+#mainmenu {
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    background: #1D3555;
+}
+
+.row.buttons input[type="submit"] {
+    background: #36444d;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border: 1px solid #a2a8ad;
+    border-radius: 2px;
+    webkit-border-radius: 2px;
+    moz-border-radius: 2px;
+    position: relative;
+    behavior: url(/PIE.htc);
+}
+
+.row.buttons input[type="submit"]:hover {
+    background: #4D6C80;
+}
+
+table.detailViewTable th {
+    text-align: center;
+}
+
+/*---<---header---*/
+
+.timer {
+    float: right;
+    padding: 10px 20px;
+}
+
+.timerJS span {
+    font: 14px Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1D3555;
+}
+
+/*--->---header---*/
+
+/*---<---bus scheme---*/
+
+.busTableWrap {
+    width: auto;
+}
+
+.busTableWrap td {
+    border: none;
+    padding: 2px;
+    width: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.busTable {
+    width: auto;
+    margin: 0 0 0 60px;
+}
+
+form .busTable td div, .busTable td div {
+    border: 1px solid #b7b7b7;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 25px;
+    color: #fff;
+}
+
+.booking .busTable td div, .busTable td div {
+    width: 70px;
+    height: 40px;
+}
+
+
+
+form .busTable td div {    
+    cursor: pointer;    
+}
+
+.placeNP, .placePP {
+    background: #999; 
+}
+
+.placeNA {
+    background: #FFFE3A; 
+}
+
+.placeWP {
+    background: #FF0000; 
+}
+
+.placeDP {
+    background: #0043FF;
+}
+
+.placeTP {
+    background: #FCC500;  
+}
+
+.placePP.specialPlace {
+    background: #00CC20;
+}
+
+.busTable td div.busPass {
+    width: 70px;
+    height: 40px;
+    background: transparent;
+    border: none;
+}
+
+.busTable td div.placePP, .busTable td div.placeFP, .busTable td div.placeNP, .busTable td div.placeNA, .busTable td div.placeDP, .busTable td div.placeWP, .busTable td div.createBusItemsDiv {    
+    position: relative;
+    text-align: left;
+    color: #000;
+}
+
+.twoBus .busTable td div.placePP, .twoBus .busTable td div.placeFP, .changePlace .busTable td div.placePP, .changePlace .busTable td div.placeFP,  .busTable td div{
+    /*width: 60px;    */
+    /*  height: 30px; */
+   /* padding: 5px;   */
+    text-align: left;
+    color: #000;
+    position: relative;
+}
+
+.busTable td div .placeLabel{
+
+}
+
+.busTableWrap td + td {
+    width: 40px;
+}
+
+.addDeletePlace {
+
+}
+
+.addDeletePlace a, .deleteBusTour a, .deleteBaseBusTour a {
+    text-decoration: none;
+}
+
+.busTable td div.rowSign {
+    float: left;
+    border: none;
+    font: 14px Tahoma, Arial, Helvetica, sans-serif;
+    color: #000;
+    width: 50px;
+    position: absolute;
+    left: -60px;
+    top: 5px;
+}
+
+.busTable .bus_table_place {
+    background: #FCC500;
+    text-align: center;
+    color:#000;
+}
+
+.tablePlace table td {
+    vertical-align: middle !important;
+    padding: 2px;
+}
+
+div.tablePlace .busTable div {
+    width: 54px;
+    height: 30px;
+    padding: 0;
+}
+
+.tablePlace .busTable div.escort {
+    width: auto;
+    height: 30px;
+}
+
+.tablePlace .busTable div.doors_1, .tablePlace .busTable div.doors_2, .tablePlace .busTable div.doors_3, .tablePlace .busTable div.doors_4 {
+    width: auto;
+}
+
+.tablePlace .busTable div.doors_1 {
+    height: 30px;
+}
+
+.tablePlace .busTable div.doors_2 {
+    height: 66px;
+}
+
+.tablePlace .busTable div.doors_3 {
+    height: 104px;
+}
+
+.tablePlace .busTable div.doors_4 {
+    height: 140px;
+}
+
+.tablePlace.itemTablePlace .busTable div.placePP {
+    background: #00CC20;
+}
+
+table.viewBusTable th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+table.viewBusTable td {
+    vertical-align: top;
+    text-align: left;    
+}
+
+.tablePlace table.viewBusTable td {
+    vertical-align: top !important;
+    text-align: left;
+}
+
+table.viewBusTable td table td{
+    vertical-align: middle;
+}
+
+/*---legend---<---*/
+
+.legendTable {
+    width: auto;
+}
+
+.legendTableDiv {
+    float: left;
+    padding: 0 0 0 20px;
+}
+
+.legendTable td{
+    border: 1px solid #b7b7b7;
+}
+
+.legendPlaceNA, .legendPlaceNP, .legendPlaceFP, .legendPlacePP, .legendPlaceWP, .legendPlaceDP, .legendPlaceTP, .legendPlaceBP {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #b7b7b7;
+}
+
+.legendPlaceTP {
+    background: #FCC500 
+}
+
+.legendPlaceNA {
+    background: #FFFE3A;
+}
+
+.legendPlaceWP {
+    background: #FF0000;
+}
+
+.legendPlaceDP {
+    background: #0043FF;
+}
+
+.legendPlaceNP, .legendPlacePP {
+    background: #D9D9D9;
+}
+
+.legendPlaceFP {
+    background: #FFF;
+}
+
+.placeCP {
+    background: #00cc20;
+}
+
+.placeBP {
+    background: #ff8eb6;
+}
+
+.legendPlaceBP {
+    background: #ff8eb6; 
+}
+
+#bus_scheme .placeBP, #bus_scheme .placeFP {
+    cursor:pointer
+}
+
+.legendPlaceCP {
+    background: #00cc20;
+}
+
+.legendPlacePP.active, .legendPlacePP.select {
+    background: #00CC20;
+}
+
+.changeBusPlace .legendTable {
+    margin: 10px 20px 0 30px;
+}
+
+.changeBusPlace .legendTable td{
+    border: none;
+    vertical-align: top;
+    text-align: left;
+}     
+
+/*---legend--->---*/
+
+/*---bus scheme--->---*/
+
+/*---tour---<---*/
+
+.tourTableUpdate th {
+    text-align: center;
+}
+
+.tourTableUpdate td, .tourTableUpdate th {
+    border: 1px solid #b7b7b7;
+}
+
+.tourTableUpdate td input{
+    width: 100px;
+}
+
+.intervalTour {
+    padding: 15px 0;
+}
+
+.createTourName {
+    padding: 10px 0;
+    font: 14px Tahoma, Arial, Helvetica;
+    font-weight: bold;
+}
+
+td.tdAllBusTour {
+    width: 300px;
+    text-align: left;
+}
+
+.roomsAddTable {
+    width: auto;
+}
+
+.roomsAddTable td, .roomsAddTable th  {
+    text-align: center;
+}
+
+.roomsAddTable td select {
+    width: 100%;
+}
+
+#confirmRoom, #data, #confirmTour, #printEscort, .colorboxViewPrint a {
+    background: #36444d;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border: 1px solid #a2a8ad;
+    border-radius: 2px;
+    webkit-border-radius: 2px;
+    moz-border-radius: 2px;
+    position: relative;
+    behavior: url(/PIE.htc);
+    text-decoration: none;
+}
+
+#confirmRoom:hover, #data:hover, #confirmTour:hover, #printEscort:hover, .colorboxViewPrint a:hover {
+    background: #4D6C80;
+}
+
+.addMoreRoomButton, .deleteMoreRoomButton {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.deleteMoreRoomButtonBase {
+    display: none;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.hotelsListTd {
+    padding-left: 0;
+}
+
+.roomTable {
+    width: auto;
+}
+
+.usualRoom, .altRoom {
+    padding: 0 30px;
+}
+
+.roomCount, .roomAltCount {
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    *zoom: 1;
+    *display: inline;
+}
+
+.addRoom, .deleteRoom, .addAltRoom, .deleteAltRoom {
+    padding: 0 5px;
+}
+
+.addRoom:hover, .deleteRoom:hover, .addAltRoom:hover, .deleteAltRoom:hover {
+    cursor: pointer;
+}
+
+.finalTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.finalTable th {
+    border: 1px solid #d4dee7;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.finalTable td {
+    border: 1px solid #d4dee7;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#final, #periodicity, .confirmTourDiv, .periodicityDiv, .roomParam, .busParamRecieve, .deleteBaseBusTour {
+    display: none;
+}
+
+.periodicityDiv {
+    padding: 15px 0 0;
+}
+
+.busTour {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+.busTour div {
+    float: left;    
+}
+
+.busTour .schemeBusTour {
+    width: 20px;
+    height: 20px;
+    background: #FF0000;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.schemeBusTour a {
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.schemeBusTour a span {
+    display: none;
+}
+
+.busTour .selectBusTour select {
+    margin: 0;
+}
+
+.busTour .addBusTour {
+    width: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.addBusTour a {
+    text-decoration: none;
+}
+
+.periodicityDays {
+    width: 140px;
+}
+
+.allBusTour {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.busUpload {
+    display: none;
+}
+
+.createTourAlt {
+    display: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font: 14px Tahoma, Arial, Helvetica, San-Serif;
+    color: #000;
+}
+
+.busTableColorbox .placeFP:hover, .busTableColorbox .placeNA:hover {
+    cursor: pointer;
+}
+
+.buttons {
+    padding: 20px 0 0;;
+}
+
+.dateArrivalTourCreate {
+    width: 80px;
+}
+
+
+/*submit button (chrome, mozilla, opera, safari only)*/
+
+.createTour {
+    background-color:#3bb3e0;
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    text-decoration:none;
+    color:#fff;
+    position:relative;
+    padding:10px 20px;
+    border-left:solid 1px #2ab7ec;
+    margin-left:35px;
+    background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(44,160,202)),
+    color-stop(1, rgb(62,184,229))
+    );
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+    -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+}
+
+.createTour:active {
+    top:3px;
+    background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(62,184,229)),
+    color-stop(1, rgb(44,160,202))
+    );
+    -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+    -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+    -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
+}
+
+.createTour::before {
+    background-color:#2561b4;
+    content: url(/i/yes.png);
+    width:29px;
+    max-height:29px;
+    height:100%;
+    position:absolute;
+    display:block;
+    padding-top:6px;
+    padding-left: 5px;
+    top:0px;
+    left:-36px;
+    font-size:16px;
+    font-weight:bold;
+    color:#8fd1ea;
+    text-shadow:1px 1px 0px #07526e;
+    border-right:solid 1px #07526e;
+
+    background-image: linear-gradient(bottom, rgb(10,94,125) 0%, rgb(14,139,184) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(10,94,125) 0%, rgb(14,139,184) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(10,94,125) 0%, rgb(14,139,184) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(10,94,125) 0%, rgb(14,139,184) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(10,94,125) 0%, rgb(14,139,184) 100%);
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(10,94,125)),
+    color-stop(1, rgb(14,139,184))
+    );
+
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -webkit-box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 0px 10px 5px #999 ;
+    -moz-box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 0px 10px 5px #999 ;
+    -o-box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 0px 10px 5px #999 ;
+    box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 0px 10px 5px #999 ;
+}
+
+.createTourNo::before {
+    content: url(/i/no.png);
+}
+
+.createTour:active::before {
+    top:-3px;
+    -webkit-box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 1px 1px 0px 0px #044a64, 2px 2px 0px 0px #044a64, 2px 5px 0px 0px #044a64, 6px 4px 2px #0b698b, 0px 10px 5px #999 ;
+    -moz-box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 1px 1px 0px 0px #044a64, 2px 2px 0px 0px #044a64, 2px 5px 0px 0px #044a64, 6px 4px 2px #0b698b, 0px 10px 5px #999 ;
+    -o-box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 1px 1px 0px 0px #044a64, 2px 2px 0px 0px #044a64, 2px 5px 0px 0px #044a64, 6px 4px 2px #0b698b, 0px 10px 5px #999 ;
+    box-shadow:inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #032b3a, 1px 1px 0px 0px #044a64, 2px 2px 0px 0px #044a64, 2px 5px 0px 0px #044a64, 6px 4px 2px #0b698b, 0px 10px 5px #999 ;
+}
+
+.createTour:hover, .createTourNo:hover {
+    cursor: pointer;
+}
+
+/*submit button*/
+
+
+.tourViewBusTable {
+    padding: 0 0 25px;
+    overflow: hidden;
+}
+
+table.finalViewRoomTable th{
+    text-align: center;
+    vertical-align: top;
+}
+
+table.finalViewRoomTable td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.schemeDescr {
+    float: left;
+}
+
+.schemeDescr div {
+    padding: 0 0 10px;
+}
+
+.schemeDescr + .schemeDescr div {
+    padding: 0 0 0 20px;
+}
+
+.toursList {
+    list-style-type: none;
+}
+
+.placeInBusDetailTable {
+    margin: 60px 0 0; 
+}
+
+.placeInBusDetailTable th, .placeInBusDetailTable td{
+    border: 1px solid #B7B7B7;
+}
+
+.placeInBusDetailTable th{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.row input.dateSearchTour, .row input.filterTour {
+    width: 25%;
+}
+/*
+.row select#RoomsAtTour_city {
+width: 26%;
+}*/
+
+/*---tour--->---*/
+
+
+
+/*---booking---<---*/
+
+.tableSeachTour {
+    width: auto;
+    vertical-align: middle;
+}
+
+.tableSeachTour td {
+    text-align: left;
+}
+
+.hiddenHotels, .hiddenRooms {
+    display: none;
+}
+
+.resultTableSearchTour td, .resultTableSearchTour th {
+    border: 1px solid;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.resultTableSearchTour th {
+    font: 14px Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.bookingActionDiv {
+    width: 90px;
+}
+
+.bookingActionSpan {
+
+}
+
+.hiddenBookingActionSpan {
+    display: none;
+    position: absolute;
+    top: -23px;
+    background: #EEE;
+    padding: 10px 5px;
+    left: 1px;
+    width: 125px;
+    opacity: 1;
+    text-align: left;
+    z-index: 10000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: #666 1px 1px 5px, 1px -1px 5px, -1px 1px 5px, -1px -1px 5px;
+    -moz-box-shadow: #666 1px 1px 5px, 1px -1px 5px, -1px 1px 5px, -1px -1px 5px;
+    box-shadow: #666 1px 1px 5px, 1px -1px 5px, -1px 1px 5px, -1px -1px 5px;
+    behavior: url(/PIE.htc);
+}
+
+.hiddenBookingActionSpan a {
+    display: block;
+    text-decoration: underline;
+    padding: 5px 0;
+    position: relative;
+    z-index: 10;    
+}
+
+.hiddenBookingActionSpan a:hover {
+    text-decoration: none;
+}
+
+.huckAction {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    background: transparent;
+    float: left;
+}
+
+.booking {
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.booking td {
+    padding: 2px;
+}
+
+.bookingBusScheme {
+    /*float: left;*/
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+.buttonBooking {
+    overflow: hidden;
+    margin: 50px auto 0;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.backBooking, .forwardBooking {
+    float: left;
+    margin: 0 10px;
+}
+
+.backBooking a, .forwardBooking a {
+    display: block;
+    background: #36444d;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border: 1px solid #a2a8ad;
+    border-radius: 2px;
+    webkit-border-radius: 2px;
+    moz-border-radius: 2px;
+    position: relative;
+    behavior: url(/PIE.htc);
+    text-decoration: none;
+}
+
+.backBooking a:hover, .forwardBooking a:hover {
+    background: #4D6C80;
+}
+
+.booking .busTable div {
+    cursor: default;
+}
+
+.booking .busTable div.placeFP, .booking .busTable div.placePP.specialPlace {
+    cursor: pointer;
+}
+
+.busTable_0, .busTable_1 {
+    padding: 0 0 20px;
+}
+
+.busTable_0, .busTable_1, .busTable_2 {
+    display: block;
+}
+
+.forwardBooking a {
+    display: none;
+}
+
+.busTable td div.doors_1, .busTable td div.doors_2, .busTable td div.doors_3, .busTable td div.doors_4, .changeBusPlace div.doors_1, .changeBusPlace div.doors_2, .changeBusPlace div.doors_3, .changeBusPlace div.doors_4 {
+    width: 146px;
+    background: #0043FF;
+    text-align: center;
+    color: #000;
+}
+
+.busTable td div.doors_1, .changeBusPlace div.doors_1 {
+    height: 40px;
+}
+
+.busTable td div.doors_2, .changeBusPlace div.doors_2 {
+    height: 86px;    
+}
+
+.busTable td div.doors_3, .changeBusPlace div.doors_3 {
+    height: 132px;    
+}
+
+.busTable td div.doors_4, .changeBusPlace div.doors_4 {
+    height: 178px;    
+}
+
+.twoBus {
+    overflow: hidden;
+    padding: 50px 0 0;
+}
+
+.busTable_0, .busTable_1, .busTable_2  {
+    float: left;
+    padding: 0 30px 0 0;
+}
+
+.busTable td div.busDriver, .busTable td div.firstBusDoor, .changeBusPlace div.busDriver, .changeBusPlace div.firstBusDoor {
+    height: 30px;
+    color: #000;
+    text-align: center;
+    background: #D9D9D9;
+}
+
+.busTable td div.escort, .changeBusPlace div.escort {
+    background: #FF0000;
+    width: 146px;
+    color: #000;
+    text-align: center;
+}
+
+.booking .busTable td div.rowSign {
+    left: -60px;
+    top: 10px;
+    width:55px !important;
+}
+
+.addMorePlace {
+    text-decoration: underline;
+    font: 12px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.addMorePlace:hover {
+    text-decoration: none;
+}
+
+.showPlace {
+
+}
+
+.hidePlace {
+    display: none;
+}
+
+.doubleTourBus {
+    padding: 40px 0;
+    text-align: left;
+    font: 14px Tahoma, Arial, Helvetivca, San-Serif;
+    font-weight: bold;
+}
+
+.wrapBusDiv {
+    overflow: hidden;
+}
+
+.departureDiv {
+    overflow: hidden;
+}
+
+.arrivalDiv {
+    overflow: hidden;
+}
+
+.bookingBusSchemeTop {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 1200px;
+
+}
+
+.notifyBooking {
+    /*float:left;*/
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    position: relative;
+    width: 150px;
+    left: 75px;
+    text-align: left;
+    padding: 5px;
+    margin: 200px 0 0;
+    border: 1px solid #000000;
+    vertical-align: top;
+}
+
+/*---booking--->---*/
+
+/*---orders---<---*/
+
+select#tourStatus {
+    background: none;
+}
+
+.tourRequest, #tourRequest {
+    color: #ec1e5d;
+}
+
+.tourConfirm, #tourConfirm {
+    color: #0d0;
+}
+
+.tourCanceled, #tourCanceled {
+    color: #000;
+}
+
+.colorboxViewPrint {
+    overflow: hidden;
+}
+
+.colorboxViewPrint a {
+    float: left;
+    margin: 0 15px 0 0;
+    color: #fff;
+}
+
+/*---orders--->---*/
+
+/*---users---<---*/
+
+#Users_direction {
+    padding: 5px 0;
+}
+
+#Users_direction input {
+    display: block;
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.row label[for="Users_direction"]{
+    margin: 0 0 10px;
+} 
+
+/*---users--->---*/
+
+/*---change_bus_place---<---*/
+
+.changePlace {
+    margin: 0 auto;
+}
+
+.changeBusPlace {
+    width: 1000px;
+}
+
+.changeBusPlace td {
+    text-align: center;
+    vertical-align: top;
+}
+
+.changeBusPlace th, .changeBusPlace td {
+    border: 1px solid #C9E0ED;
+}
+
+.changeBusPlace th {
+    text-align: center;
+}
+
+.changeBusPlace select {
+    width: 300px;
+}
+
+.changeBusPlace .busTable td div.rowSign {
+    left: -54px;
+}
+
+.changeBusPlace .busTable td {
+    border: none;
+}
+
+.changeBusPlace .fromBus, .changeBusPlace .whereBus {
+    padding: 40px 0;
+    width: 500px;
+}
+
+
+.changeBusPlace .fromBus div.placePP {
+    cursor: pointer;
+
+}
+
+.changeBusPlace .fromBus div.placeFP, .changeBusPlace .fromBus div.specialPlace {
+    cursor: default;
+}
+
+.changePlaceItem {
+    background: #00CC20;
+}
+
+.passengersName {
+    display: block;
+    font: 8px Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 18px;
+    overflow: hidden;
+}
+
+/*---change_bus_place--->---*/
+
+/*---for escort---<---*/
+
+.escortWrapPrint .escortWrap, .escortWrapPrint .escortLinkPrint {
+    float: left;
+    padding: 0 15px 0 0;
+}
+
+.forEscortBus {
+    margin: 20px 0 0;
+}
+
+.printEscortFirstTable {
+    width: 1200px;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.printEscortFirstTable td {
+    border: 1px solid #B7B7B7;
+    width: 20%;
+    padding: 2px;
+}
+
+.printEscortFirstTable td[colspan="3"], .printEscortFirstTable td.busPass {
+    border: none;
+}
+
+.printEscortFirstTable .printEscortDiv {
+    min-height: 46px;
+    border: none;
+    font: 11px Tahoma, Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.printEscortFirstTable .printEscortRow {
+    height: auto;
+    border: none;
+    border-bottom: 1px solid #B7B7B7;
+    margin: 2px;
+    height: 15px;
+}
+
+.printEscortFirstTable .itemsUsersName {
+    height: auto;
+    border: none;
+    margin: 2px;
+}
+
+.printEscortFirstTable .doors_1, .printEscortFirstTable .doors_2, .printEscortFirstTable .doors_3, .printEscortFirstTable .doors_4 {
+    height: auto;
+    text-align: center;
+}
+
+.printEscortFirstTable .busDriver, .printEscortFirstTable .firstBusDoor, .printEscortFirstTable .escort{
+    height: 35px;
+    text-align: center;
+    padding: 15px 0 0;
+}
+
+.forEscortHotel {
+
+}
+
+.printEscortSecondTable, .printEscortThirdTable {
+    width: 100%;
+}
+
+.printEscortSecondTable td, .printEscortThirdTable td {
+    border: 1px solid #B7B7B7;
+    padding: 2px 0 2px 5px;
+    font: 11px Tahoma, Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.printEscortThirdTable th {
+    border: 1px solid #B7B7B7;
+    font: 11px Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.printEscortThirdTable td {
+    width: 350px;
+}
+
+.printEscortThirdTable td+td {
+    width: 150px;
+}
+
+.printEscortThirdTable td+td+td {
+    width: 100px;
+}
+
+.printEscortThirdTable td+td+td+td {
+    width: 100px;
+}
+
+.printEscortThirdTable td+td+td+td+td {
+    width: 100px;
+}
+
+.printEscortThirdTable td+td+td+td+td+td {
+    width: auto;
+}
+
+.forEscortBus, .forEscortTable {
+    padding: 30px 0;
+}
+
+.printEscortThirdTableName {
+    margin: 40px auto 15px;
+    text-align: center;
+    font: 12px Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000;
+}  
+
+
+
+
+/*//////////////////////////////////////////*/
+/*таблица со списком туристов при бронировании*/
+
+.tourists_table {}
+.tourists_table td {border:1px solid black; text-align: center; padding:0 !important; margin:0 !important}
+.tourists_table td textarea {width:90% !important; height:17px !important}
+.tourists_table td span {color:#ff0000}
+.dop_mesto {font-weight:bold; color:#FF0000}
+
+
+.data-table td, .data-table-second td {
+    border:1px solid #DDDDDD;
+    padding:2px 10px;
+    font-size:12px;
+}
+
+.data-table-second td{
+    padding:10px;
+}
+
+.data-table tr:nth-of-type(2n+1) {
+    background: #eee;
+}
+
+
+.city_direction_list {
+    float:left;
+    margin:0 20px 0 0;
+}
+
+.popup_content {
+    padding:20px 40px ;
+}
+
+.navbar-nav {
+
+}
+
+.navbar-nav > li:last-child{
+    float:right
+}
+
+.navbar-nav a.active {
+    background-image: linear-gradient(to bottom, #428BCA 0px, #3278B3 100%);
+    background-repeat: repeat-x;
+    color:#fff !important;
+}
+
+.sub_navbar {
+    min-height:30px !important;
+}
+
+.submenu a {
+    padding: 5px 15px !important;
+}
+
+.direction_edit_block label{
+    width:150px;
+}  
+
+.direction_edit_block .form-control {
+    display:inline-block
+}
+
+.direction_edit_block .form-group {
+    margin-bottom: 5px;
+}
+
+.form-group div.hint {
+    display: inline-block;
+    width:360px;
+    /* float:right;*/
+    font-size:12px;
+}
+
+.pickmeup {  /*
+    left: 225px !important;
+    top:305px !important;    */
+}
+
+
+
+.table_view {
+    width:50%;
+    float:left
+}
+
+.table_view label {
+    width:80px;
+}
+
+.table_view .input-xlarge, .table_view .input-medium {
+    width:50% !important;
+}
+
+.table_view_discounts {
+    width:40%;
+    float:left
+}
+
+.table_view_discounts label {
+    width:100%;
+}
+
+.table_view_discounts .input-xlarge, .table_view_discounts .input-medium {
+    width:90% !important;
+}
+
+.w100 {
+    width:100%;
+    clear:both;
+}
+
+.table {
+    width:1000px !important
+}
+
+.navbar-header {
+    /* background: linear-gradient(to bottom, #428BCA 0px, #3278B3 100%);  */
+}
+
+.navbar-header a {
+    /*  color:#fff !important; */
+}
+
+.profile-table {
+    width:500px;
+}
+
+
+.add_button {
+    background: linear-gradient(to bottom, #428BCA 0px, #2D6CA2 100%);
+    padding:3px 5px;
+    display: block;
+    color:#fff;
+    border-radius:3px;
+    border:1px solid #2B669A;
+    width:100px;
+    text-align: center;
+    margin:5px 0;
+}
+
+.add_button:hover {
+    color:#fff;
+    text-decoration: none;
+}
+
+
+.save_button {
+    background: linear-gradient(to bottom, #5CB85C 0px, #419641 100%);
+    padding:3px 5px;
+    display: block;
+    color:#fff;
+    border-radius:3px;
+    border:1px solid #347734;
+    width:100px;
+    text-align: center;
+    margin:5px 0;
+}
+
+.save_button:hover {
+    color:#fff;
+    text-decoration: none;
+}
+
+.system_exit .save_button {
+    position:absolute;
+    top:65px; 
+    right:-15px;
+    color:#fff !important;
+}
+
+.filter_block {
+    max-height:100px;
+    overflow-y:scroll;
+    border-top:1px solid #ddd;
+}
+
+.filter_block label {
+    display:block;
+}
+
+
+.element_edit_form_h4 {
+    display:block; 
+    clear: both;
+    color:#428BCA;
+}
+
+.math_number {
+    width:270px; 
+    float:left;
+}
+
+.math_sign {
+    height:30px;
+    line-height:30px; 
+    width:30px;
+    float:left;
+    font-size:30px;
+    font-weight:bold;
+    margin:25px 0 0;
+    text-align: center;
+}
+
+.math_sign_plus {
+    height:30px;
+    line-height:30px; 
+    width:630px;
+    clear:both;
+    font-size:30px;
+    font-weight:bold;
+    text-align: center;
+    margin:10px 0
+}
+
+.only_road_button {
+    float:left;
+    margin:0 0 0 20px;
+}
+
+.separator {
+    width:100%;
+    clear:both;
+}
+
+.booking_types_separator {
+    margin:0 20px
+}
+
+.tour_spec_offer {
+    background: #FFF08A !important;
+}
+
+.item_unactive {
+    background: #FFA397 !important; 
+}
+
+.orders_table td {
+    font-size:11px !important;
+    text-align: center;
+    padding: 2px 5px;
+}
+
+.data-table th {
+    padding:0 5px ;
+    font-size:12px;
+    text-align: center;
+    line-height: 25px;
+    border:1px solid #DDDDDD;
+}
+
+.order_notes_area {
+    width:500px;
+    height:100px;
+}
+
+.birthday input {
+    width:70px;
+}
+
+
+.logo {
+    position:relative;
+    overflow: hidden;
+}
+
+.logo > .profile {
+    position: absolute;
+    bottom:0;
+    width:100%;
+    display:block;
+    text-align: center;
+}
+
+
+.tourist_add {
+    color: #4EA64E;
+}   
+
+.tourist_add:hover {
+    text-decoration: underline;
+    cursor:pointer
+}
+
+
+#escort_bus .busTable td {
+    width:200px !important;
+    height:75px;
+}
+
+#escort_bus .busTable td > div {
+    width:100%;
+    height:100%;
+    background: #fff !important;
+} 
+
+#escort_bus  .printEscortRow {
+    height:17px;
+    line-height: 15px;
+    padding: 0;
+    width: 180px;
+    border:0;
+    border-bottom:1px solid #aaa;
+}
+
+#escort_bus .itemsUsersName {
+    margin:5px 0 0;
+    height:40px;
+    padding: 0;
+    width: 180px;
+    border:0;
+    
+}
+
+#escort_bus .itemsUsersName {
+    font-size:11px;
+}
+
+#escort_bus  .agency {
+    font-weight:bold;
+}
+
+#escort_bus .busTable{
+    margin:0;
+}
+
+
+.percent_field {
+    width:25px;
+    text-align: center;
+}
+
+
+.print_button {
+    font-size:12px;
+}
+
+
+
+/*---confirm---<---*/
+
+.confirmTable {
+    font: 14px Tahoma, Arial, Helvetica, sans-serif;
+    color: #000;
+    width:980px;
+    margin:0 auto;
+}
+
+.confirmTable td {
+    padding: 0;
+}
+
+.confirmTitleDivPrint {
+    text-align: center;
+    text-transform: uppercase;
+    font: 16px Tahoma, Arial, Helvetica, sans-serif;
+    padding: 10px 0 0;
+}
+
+.confirmClientDivPrint, .confirmRequestDivPrint {
+    text-align: left;
+    text-transform: uppercase;
+    font: 16px Tahoma, Arial, Helvetica, sans-serif;
+    padding: 10px 0 0 100px;
+    margin: 0 5px;
+    border-bottom: 1px solid #000;
+}
+
+td.confirmClientTablePrint , td.confirmRequestTablePrint, td.confirmPlaceTablePrint {
+    padding: 10px 0 0 70px; 
+}
+
+.confirmClientTablePrint table, .confirmRequestTablePrint table, .confirmPlaceTablePrint table {
+    width: auto;
+    margin: 5px;
+}
+
+.confirmClientTablePrint table td, .confirmRequestTablePrint table td, .confirmPlaceTablePrint table td {
+    border: none;
+    text-align: right;
+    vertical-align: middle;
+    padding: 5px 10px 5px 0;
+    width: 200px;
+}
+
+.confirmClientTablePrint table td:last-child, .confirmRequestTablePrint table td:last-child, .confirmPlaceTablePrint table td:last-child {
+    width:500px;
+}
+
+.confirmClientTablePrint table td+td, .confirmRequestTablePrint table td+td, .confirmPlaceTablePrint table td+td {
+    text-align: left;
+}
+
+td.confirmTouristTablePrint {
+    padding: 5px;
+}
+
+td.confirmTouristTablePrint table {
+    width: 100%;
+}
+
+.confirmTouristTablePrint table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.confirmTouristTablePrint table td {
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.confirmTouristTablePrint table td, .confirmTouristTablePrint table th {
+    border: 1px solid #000;
+}
+
+.confirmDateDivPrint {
+    padding: 15px 0 0;
+}
+
+.confirmStampDivPrint {
+    height: 190px;
+    width: 194px;
+    text-align: center;
+    position: relative;
+}
+
+.confirmStampDivPrint b {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+
+
+.confirmHeadDivPrint {
+    width:500px;
+    height:200px;
+    position:relative;
+    float:left;       
+}
+
+.confirmHeadDivPrint img {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;       
+    max-width:500px;
+    max-height:200px;
+    display:block;
+    margin:auto
+}
+
+
+.confirmStampDivPrint {
+    width:4cm;
+    height:4cm;
+    position:relative;
+}
+
+.confirmStampDivPrint div { 
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0; 
+    z-index:1;  
+    display:block;
+    width:50px;
+    height:50px; 
+    line-height:50px;
+    text-align: center;
+    font-weight: bold;
+    margin:auto
+}
+
+.confirmStampDivPrint img {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;    
+    max-width:4cm;
+    max-height:4cm;
+    z-index:2;
+    display:block;
+    margin:auto    
+}
+
+
+.conformCompanyInfo {
+    width:450px;
+    height:200px;
+    float:right;
+    position:relative;
+    font-weight:bold;
+    line-height:25px;
+
+}
+
+.conformCompanyInfo > div {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0; 
+    margin:auto;
+    width:auto;
+    max-height:100px;
+    text-align: center;    
+}
+
+
+
+.print_buttons .add_button {
+    display:inline-block;
+    margin:10px 10px 0 0;
+}
+
+.filter_calendar {
+    width:65px;
+}
+
+.system_exit {
+    position: relative;
+}
+
+.attention {
+    display:block;
+    padding:3px 5px;
+    border:1px solid #000;
+    font-size:12px;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+<?
+$PERM["help"]["*"]="D";
+$PERM["settings"]["*"]="D";
+$PERM["settings"]["G6"]="R";
+$PERM["place_changing"]["*"]="D";
+$PERM["place_changing"]["G6"]="R";
+$PERM["escort"]["*"]="D";
+$PERM["escort"]["G6"]="R";
+$PERM["formation-tours"]["*"]="D";
+$PERM["formation-tours"]["G6"]="R";
+$PERM["tours"]["*"]="D";
+$PERM["tours"]["G6"]="R";
+$PERM["ta"]["*"]="D";
+$PERM["ta"]["G6"]="R";
+$PERM["desktop_app"]["*"]="R";
+$PERM["/"]["*"]="R";
+?>

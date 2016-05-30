@@ -1,0 +1,161 @@
+<?
+$arUrlRewrite = array(
+	array(
+		"CONDITION" => "#^/additional-information/city-taking-tourists/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/additional-information/age_discount/index.php",
+	),
+	array(
+		"CONDITION" => "#^/additional-information/city-taking-tourists/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/settings/city-taking-tourists/index.php",
+	),
+	array(
+		"CONDITION" => "#^/additional-information/city-taking-tourists/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/settings/math/index.php",
+	),
+	array(
+		"CONDITION" => "#^/additional-information/city-taking-tourists/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/settings/services/index.php",
+	),
+	array(
+		"CONDITION" => "#^/additional-information/city-taking-tourists/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/settings/age_discount/index.php",
+	),
+	array(
+		"CONDITION" => "#^/order-management/orders_archive/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/order-management/orders_archive/index.php",
+	),
+	array(
+		"CONDITION" => "#^/order-management/tour_selection/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/order-management/tour_selection/index.php",
+	),
+	array(
+		"CONDITION" => "#^/additional-information/discont/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/additional-information/discont/index.php",
+	),
+	array(
+		"CONDITION" => "#^/additional-information/discont/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/settings/services_groops/index.php",
+	),
+	array(
+		"CONDITION" => "#^/additional-information/discont/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/settings/discount_groups/index.php",
+	),
+	array(
+		"CONDITION" => "#^/formation-tours/direction/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/formation-tours/city/index.php",
+	),
+	array(
+		"CONDITION" => "#^/formation-tours/direction/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/formation-tours/direction/index.php",
+	),
+	array(
+		"CONDITION" => "#^/settings/main_settings/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/settings/main_settings/index.php",
+	),
+	array(
+		"CONDITION" => "#^/formation-tours/hotel/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/formation-tours/hotel/index.php",
+	),
+	array(
+		"CONDITION" => "#^/formation-tours/tour/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/formation-tours/tour/index.php",
+	),
+	array(
+		"CONDITION" => "#^/formation-tours/room/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/settings/departure_city/index.php",
+	),
+	array(
+		"CONDITION" => "#^/formation-tours/room/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/formation-tours/room/index.php",
+	),
+	array(
+		"CONDITION" => "#^/formation-tours/bus/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/formation-tours/bus/index.php",
+	),
+	array(
+		"CONDITION" => "#^/tour_selection/tour/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/tour_selection/tour/index.php",
+	),
+	array(
+		"CONDITION" => "#^/tour_selection/road/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/tour_selection/road/index.php",
+	),
+	array(
+		"CONDITION" => "#^/tour_selection/tour/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/index.php",
+	),
+	array(
+		"CONDITION" => "#^/tour_selection/#",
+		"RULE" => "",
+		"ID" => "bitrix:news",
+		"PATH" => "/tour_selection/index.php",
+	),
+	array(
+		"CONDITION" => "#^/tours/tour/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/tours/tour/index.php",
+	),
+	array(
+		"CONDITION" => "#^/photo/#",
+		"RULE" => "",
+		"ID" => "bitrix:photogallery",
+		"PATH" => "/photo.php",
+	),
+	array(
+		"CONDITION" => "#^/hotel/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/hotel/index.php",
+	),
+	array(
+		"CONDITION" => "#^/room/#",
+		"RULE" => "",
+		"ID" => "bustour:iblock.element.add",
+		"PATH" => "/room/index.php",
+	),
+);
+
+?>
