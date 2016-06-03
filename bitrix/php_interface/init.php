@@ -1797,9 +1797,9 @@
 
             //проверяем является пользователь оператором или менеджером оператора
             $USER = new CUser;
-            if (checkUserStatus($USER->GetId()) == "Y") {                
+            //if (checkUserStatus($USER->GetId()) == "Y") {                
             $userID = getUserOperator($USER->GetId());
-            }          
+            //}          
 
             //дополнительные параметры компании
             $companyProps = CIBlockElement::GetList(array(),array("ID"=>$companyId),false,false,array("ID","NAME","PROPERTY_STAMP"))->Fetch();
