@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/bitrix/templates/bustour/template_styles.css" => "1396355868621",), 'CUR_SEL_CNT' => '11', 'CUR_IE_CNT' => '0'); ?>

@@ -1,0 +1,13 @@
+<?
+$MESS["TRANSACTIONS_EDIT_TAB_TITLE"] = "Редактирование транзакции";
+$MESS["TRANSACTION_EDIT"] = "Редактирование параметров транзакции";
+$MESS["BTN_TO_TRANSACTION_LIST"] = "Назад к списку транзакций";
+$MESS["WEBGK_GK_SUPPORT_TRANSACTIONS_CLIENT_ID"] = "ID клиента";
+$MESS["WEBGK_GK_SUPPORT_TRANSACTIONS_TYPE"] = "Тип";
+$MESS["WEBGK_GK_SUPPORT_TRANSACTIONS_SUMM"] = "Сумма";
+$MESS["WEBGK_GK_SUPPORT_TRANSACTIONS_COMMENT"] = "Комментарий";
+$MESS["WEBGK_GK_SUPPORT_TRANSACTIONS_TICKET_ID"] = "ID тикета";
+$MESS["WEBGK_GK_SUPPORT_TRANSACTIONS_SPENT_TIME_ID"] = "ID затраченного времени";
+$MESS["WEBGK_GK_SUPPORT_TRANSACTIONS_ACTIVE"] = "Активность";
+$MESS["POST_PLUS"] = "Пополнение";
+$MESS["POST_MINUS"] = "Списание";

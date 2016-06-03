@@ -1,0 +1,28 @@
+.tableHours div{
+    display:inline-block;
+    width:70px;
+}
+.tableHours input{
+    width:50px;
+}
+.billingTimeTable td:nth-child(4){
+    width:200px;
+}    
+.billingTimeTable{
+    display:none;
+}
+.addHours{
+    display:inline;
+}
+.hideBillingTable{
+    display:none;
+}
+
+.billingTimeTable table td {
+    padding:5px 10px;
+    border:1px solid #AAA;
+}
+
+.wrongData {
+    border-color:red;
+}

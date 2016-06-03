@@ -1,0 +1,1 @@
+<? require( $_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/webgk.support/admin/webgk_support_spent_time_edit.php' ); ?>

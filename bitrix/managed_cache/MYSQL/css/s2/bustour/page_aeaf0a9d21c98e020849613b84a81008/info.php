@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/bitrix/components/bustour/news.list.onlyroad/templates/.default/style.css" => "1401783846108",), 'CUR_SEL_CNT' => '2', 'CUR_IE_CNT' => '0'); ?>

@@ -1,0 +1,5 @@
+.statTable th, .statTable td {height: auto; padding: 5px; border:1px solid gray; color:#111}
+.statTable th {background: #369D38; text-align: center; font-weight:bold; color:#fff}
+.monthName {background: #5ADD69 !important;}
+.balanceMinus {background: #FFA9A6;}
+.balancePlus {background: #96FF91;}
